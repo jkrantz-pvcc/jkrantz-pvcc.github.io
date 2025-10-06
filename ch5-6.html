@@ -1,0 +1,201 @@
+<!DOCTYPE = html>
+<!-- NAME: Joseph Krantz
+ -->
+<html lang="en">
+
+<head>
+    <title>Chapter 5-6</title>
+
+</head>
+
+<body style="color: rgb(46, 23, 4); background-color: rgb(153, 100, 69);">
+    
+    <h1>Chapter 5: Computer Systems Organization</h1>
+
+    <h2>Student: Joseph Krantz</h2>
+
+    <h3>Von Neumann computer architecture, 4 major subsystems:</h3>
+
+    <ol>
+        <li>memory</li>
+        <li>input/output</li>
+        <li>arithmetic/logic unit</li>
+        <li>control unit</li>
+       
+    </ol>
+
+    <h3>Von Neumann computer architecture, 3 characteristics:</h3>
+
+    <ol>
+        <li>four major subsystems</li>
+        <li>instructions are represented as binary values and stores in memory</li>
+        <li>sequential execution of instructions</li>
+
+    </ol>
+        
+       
+    <h3>Computer Architecture Terms</h3>
+
+    <ol>
+        <li>RAM: a memory structure in which each cell has an address and it takes the same amount of time to fetch or story any cell</li>
+        <li>cache: special high speed memory unit that keeps a copy of memory cells with a high likelihood of access in the near future</li>
+        <li>Principle of locality: The high likelihood that when a program fetches a piece of data or an instruction:
+            <ol><li>it will access that same instruction or piece of data in the very near future</li>
+                <li>it will sonn access the instructions or data that are located near that piece of data</li>
+            </ol></li>
+        <li>ROM: a memory structure that can only be accessed, not written into or changed</li>
+        <li>memory cell size: number of bits in a single memory cell</li>
+        <li>memory cell address: unique numeric identifier for a memory cell</li>
+        <li>maximum memory size: max amount of memory that a computer can physically hold, determined by the size of the address field</li>
+        <li>register: special high speed storage cell that holds the operands of an arithmetic operation and that, when the operation is complete, holds its result</li>
+        <li>fetch: access the contents of an address and return those contents as the result of the operation</li>
+        <li>store: store the specified value into the memory cell specified by address</li>
+        <li>memory access time: the time it takes to fetch or store the contents of a single memory cell</li>
+        <li>DASD: a mass storage device in which each unit of information is associated with a unique address, but the time to access each piece of information may not be the same</li>
+        <li>Arithmetic and Logic Unit (ALU): the subsystem that performs mathmatical and locgical operations</li>
+        <li>Control Unit: the subsystem that fetches and executes instructions stored in the memory of the computer</li>
+        
+    </ol>
+
+   <h1>Chapter 6:</h1>
+
+   <h3>Four things the interface between the computer and the hardware does:</h3>
+
+    <ol>
+        <li>hides from the user the messy details of the underlying hardware</li>
+        <li>presents information about what is happening in a way that does not require in depth knowledge of the internal structure of the system</li>
+        <li>allow easy user access to the resources available on this computer</li>
+        <li>prevents accidental or intentional damage to hardware, programs, and data</li>
+
+    </ol>
+
+    <h3>Responsibilites of systems software:</h3>
+
+    <ol>
+        <li>hides the complex and unimportant details of the internal structure of the Von Neumannn architecture</li>
+        <li>presents important information to the user in a way that is easy to understand</li>
+        <li>allows the user to access machine resources in a simple and efficient way</li>
+        <li>provides a secure and safe environment in which to operate</li>
+    
+    </ol>
+
+    <h3>Terms:</h3>
+
+    <ol>
+        <li>systems software: collection of computer programs that manage the resources of a computer and facilitate access to those resources</li>
+        <li>user interface: visual overview of the computer that is provided by the OS</li>
+        <li>language services: allow you to write programs in a high level user oriented language rather than machine language and to execute them easly and efficiently</li>
+        <li>memory managers: allocate memory space for programs and data and retrieve this memory space when its no longer needed</li>
+        <li>information managers: handle the organization, storage, and retrieval of information on storage devices such as hard drives and dvds</li>
+        <li>i/o managers: allow you to easily and efficiently use the many different types of input and output devices that exist</li>
+        <li>scheduler: keeps a list of programs ready to run on the processor and selects the one that will execute next</li>
+        <li>utilities: collections of library routines that provide a wide range of useful services either to a user or to other system routines</li>
+        <li>assembly language: a low level programming language that maps 1:1 into machine language</li>
+
+    </ol>
+
+    <h3>Functions of an Operating System:</h3>
+
+    <ol>
+        <li>user interface management</li>
+        <li>control of access to the system and to data files</li>
+        <li>program scheduling and activation</li>
+        <li>efficient resource allocation </li>
+        <li>deadlock detection and error detection</li>
+
+    </ol>
+
+    <table border="1" style="text-align:center;">
+        <tr>
+            <td>Quantity in Bytes</td>
+            <td>Base-10 Value</td>
+            <td>Amount of Textual Information</td>
+
+        </tr>
+
+        <tr>
+            <td>1 byte</td>
+            <td>10^0</td>
+            <td>One character</td>
+            
+        </tr>
+
+        <tr>
+            <td>1 kilobyte</td>
+            <td>10^3</td>
+            <td>One typed page</td>
+
+        </tr>
+
+        <tr>
+            <td>1 megabyte</td>
+            <td>10^6</td>
+            <td>Two or three novels</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 gigabyte</td>
+            <td>10^9</td>
+            <td>A departmental library or a large personal library</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 terabyte</td>
+            <td>10^12</td>
+            <td>The library of a major academic research university</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 petabyte</td>
+            <td>10^15</td>
+            <td>All printed materials in all libraries in North America</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 exabyte</td>
+            <td>10^18</td>
+            <td>All words ever printed throughout human history</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 zettabyte</td>
+            <td>10^21</td>
+            <td>As of 2014, the total amount of information stored globally on the World Wide Web was about 4-5 zettabytes</td>
+        
+        </tr>
+
+        <tr>
+            <td>1 yottabyte</td>
+            <td>10^24</td>
+            <td>According to an article in Gizmodo, a design and technology blog, storing 1 yottabyte of data on hard drives would require 1 million data centers that would fill the states of Rhode Island and Delaware</td>
+        
+        </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+
+        
+
+</body>
+
+</html>
